@@ -34,8 +34,7 @@ void loop() {
       
     }
     analogWrite(ledPin, brightness);
-  }
-
-  // Added the delay so that we can see the output of button
-  delay(200);
+    // not skipping steps
+    delay(200);
+  }  
 }
